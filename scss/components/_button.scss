@@ -1,0 +1,55 @@
+
+// Buttons
+
+.btn--default {
+    border: 1px solid aqua;
+    background-color: aqua;
+    width: 80%;
+    margin: 55px auto 35px auto;
+    color: white;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.btn--success {
+  background-color: #33cc33;
+  color: white;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn--error {
+  background-color: #ff5050;
+  color: white;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn--warning {
+  background-color: #cc6600;
+  color: white;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn--info {
+  background-color: #9966ff;
+  color: white;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.theme__colors {
+  display: block;
+  width: 90%;
+  margin-bottom: 35px;
+  padding: 10px 0 10px 0;
+  border-radius: 5px;
+  font-weight: 900;
+}

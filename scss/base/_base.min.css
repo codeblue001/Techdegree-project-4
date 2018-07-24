@@ -1,0 +1,1 @@
+*{box-sizing:border-box}body{font-family:sans-serif;margin:0}ul{list-style-type:none}ul a{display:block;padding:15px 0;text-decoration:none;color:black;opacity:0.5}ul .nav__item :hover{border:1px solid #4fe3c2;background-color:#4fe3c2;border-radius:5px;color:white}p{text-align:left;padding:0 20px;opacity:0.5;line-height:1.5;margin:0;font-size:18px}
