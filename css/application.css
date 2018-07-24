@@ -22,11 +22,22 @@ ul {
 p {
   text-align: left;
   padding: 0 20px;
-  opacity: 0.5;
+  opacity: 0.8;
   line-height: 1.5;
   margin: 0;
   font-size: 18px; }
 
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 80%; }
+
+  ul a {
+    display: inline;
+    float: left; }
+
+  .img--logo {
+    float: left;
+    padding-right: 50px; } }
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -366,60 +377,55 @@ template {
   text-align: center;
   padding: 15px; }
 
-grid__row .grid__col--12 {
-  margin: 70px 0; }
+.grid__row {
+  margin-bottom: 35px; }
+  .grid__row .grid__col--12.theme__colors {
+    margin: 70px 0 35px 0;
+    text-align: left;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; }
+  .grid__row .grid__col--3.theme__colors {
+    background-color: #d9b3ff;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; }
+  .grid__row .grid__col--4.theme__colors {
+    background-color: #4fe3c2;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; }
+  .grid__row .grid__col--5.theme__colors {
+    background-color: #99ff99;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto; }
+  .grid__row .grid__col--6.theme__colors {
+    background-color: #6699ff;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; }
+  .grid__row .grid__col--7.theme__colors {
+    background-color: #ffb3b3;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; }
+  .grid__row .grid__col--8.theme__colors {
+    background-color: #ff884d;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; }
+  .grid__row .centered.theme__colors {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto; }
 
-/*
-.grid__col--2 {
-  text-align: left;
-}
-
-.grid__col--3{
-  background-color: #d9b3ff;
-  text-align: left;
-}
-
-.grid__col--4 {
-  background-color: #4fe3c2;
-  text-align: left;
-}
-
-.grid__col--5 {
-  background-color: #99ff99;
-  text-align: left;
-}
-
-.grid__col--6 {
-  background-color: #6699ff;
-  text-align: left;
-}
-
-.grid__col--7 {
-  background-color: #ffb3b3;
-  text-align: left;
-}
-
-.grid__col--8 {
-  background-color: #ff884d;
-  text-align: left;
-}
-
-.grid__col--9 {
-  text-align: left;
-}
-
-.grid__col--10 {
-  text-align: left;
-}
-
-.grid__col--11 {
-  text-align: left;
-}
-
-.centered {
-  text-align: left;
-}
-*/
 .btn--default {
   border: 1px solid aqua;
   background-color: aqua;
@@ -436,33 +442,36 @@ grid__row .grid__col--12 {
   color: white;
   text-transform: uppercase;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 35px; }
 
 .btn--error {
   background-color: #ff5050;
   color: white;
   text-transform: uppercase;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 35px; }
 
 .btn--warning {
   background-color: #cc6600;
   color: white;
   text-transform: uppercase;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 35px; }
 
 .btn--info {
   background-color: #9966ff;
   color: white;
   text-transform: uppercase;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-bottom: 60px; }
 
 .theme__colors {
   display: block;
   width: 90%;
-  margin-bottom: 35px;
   padding: 10px 0 10px 0;
   border-radius: 5px;
   font-weight: 900; }

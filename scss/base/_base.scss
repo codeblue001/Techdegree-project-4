@@ -35,8 +35,24 @@ ul {
 p {
   text-align: left;
   padding: 0 20px;
-  opacity: 0.5;
+  opacity: 0.8;
   line-height: 1.5;
   margin: 0;
   font-size: 18px;
+}
+
+// Meadia Querries
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+    ul a {
+      display: inline;
+      float: left;
+    }
+    .img--logo {
+      float: left;
+      padding-right: 50px;
+    }
 }
