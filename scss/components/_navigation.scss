@@ -1,8 +1,12 @@
+
 .nav__item {
    :hover {
-    border: 1px solid #4fe3c2;
-    background-color: #4fe3c2;
-    border-radius: 5px;
-    color: white;
+     color: white;
+     border: 1px solid #00ffcc;
+     background-color: #00ffcc;
+  }
+  a {
+    color: #808080;
+    text-decoration: none;
   }
 }

@@ -2,57 +2,44 @@
 // Buttons
 
 .btn--default {
-    border: 1px solid aqua;
-    background-color: aqua;
-    width: 80%;
-    margin: 55px auto 35px auto;
-    color: white;
-    padding: 10px 0 10px 0;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: 900;
+  background-color: #33ffff;
+  border: 1px solid #33ffff;
+
+;
 }
 
 .btn--success {
-  background-color: #33cc33;
-  color: white;
-  text-transform: uppercase;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 35px;
+  background-color: #33cc00;
+  border: 1px solid #33cc00;
 }
 
 .btn--error {
-  background-color: #ff5050;
-  color: white;
-  text-transform: uppercase;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 35px;
+  background-color: #ff6666;
+  border: 1px solid #ff6666;
 }
 
 .btn--warning {
-  background-color: #cc6600;
-  color: white;
-  text-transform: uppercase;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 35px;
+  background-color: #ff7f50;
+  border: 1px solid #ff7f50;
 }
 
 .btn--info {
-  background-color: #9966ff;
-  color: white;
-  text-transform: uppercase;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
+  background-color: #9f80ff;
+  border: 1px solid #9f80ff;
 }
 
 .theme__colors {
-  display: block;
-  width: 90%;
-  padding: 10px 0 10px 0;
+
+}
+
+.btn--default,
+.btn--success,
+.btn--error,
+.btn--warning,
+.btn--info {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
   border-radius: 5px;
-  font-weight: 900;
+  width: 100%;
 }

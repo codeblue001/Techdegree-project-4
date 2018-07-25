@@ -1,52 +1,8 @@
 
 // Media querries
-// Meadia Querries
 
 @media only screen and (min-width: 768px) {
-    .container {
-        width: 60%;
-        display: grid;
-    }
-
-    ul {
-      display: flex;
-      .nav__item {
-        padding-right: 15px;
-        padding-left: 15px;
-      }
-    }
-
-    .img--logo {
-      padding-right: 1em;
-    }
-
-    .card {
-      padding-top: 60px;
-    }
-
-    p {
-      font-size: 15px;
-    }
-
-    .grid__row {
-      display: flex;
-      .grid__col--8 .card {
-        margin-right: 35px;
-        width: 90%;
-        }
-      .form{
-        margin-top: 80px;
-        width: 100%;
-      }
-       .grid__col--6 {
-         .img--frame {
-        margin-right: 5.95em;
-      }
-      .img--avatar {
-        margin-left: 5em;
-        }
-  }
-  }
+  
 }
 
 // Flexbox settings

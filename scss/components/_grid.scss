@@ -2,67 +2,59 @@
 // Grid
 
 .container {
-  max-width: 1080px;
-  margin: 20px auto;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
   text-align: center;
-  padding: 15px;
-  font-family: sans-serif;
 }
 
 .grid__row {
-      margin-bottom: 35px;
-      .grid__col--12.theme__colors {
-      margin: 70px 0 35px 0;
+    .grid__col--12.theme__colors,
+    .grid__col--3.theme__colors,
+    .grid__col--4.theme__colors,
+    .grid__col--5.theme__colors,
+    .grid__col--6.theme__colors,
+    .grid__col--7.theme__colors,
+    .grid__col--8.theme__colors,
+    .centered.theme__colors {
+      font-weight: 700;
+      border: 1px solid;
+      border-radius: 5px;
+      width: 100%;
       text-align: left;
-      background-color: aqua;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 10px;
-      }
-     .grid__col--3.theme__colors {
-      background-color: #d9b3ff;
-      text-align: left;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 10px;
     }
-    .grid__col--4.theme__colors  {
-      background-color: #4fe3c2;
-      text-align: left;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 10px;
-    }
-    .grid__col--5.theme__colors  {
-      background-color: #99ff99;
-      text-align: left;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .grid__col--6.theme__colors  {
-      background-color: #6699ff;
-      text-align: left;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 10px;
-    }
-    .grid__col--7.theme__colors  {
-      background-color: #ffb3b3;
-      text-align: left;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 10px;
-    }
-    .grid__col--8.theme__colors  {
-      background-color: #ff884d;
-      text-align: left;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 10px;
-    }
-    .centered.theme__colors  {
-      text-align: left;
-      margin-left: auto;
-      margin-right: auto;
-    }
+}
+
+.grid__col--12.theme__colors {
+  background-color: #80ffdf;
+}
+
+.grid__col--6.theme__colors {
+  background-color: #0099cc;
+}
+
+.grid__col--4.theme__colors {
+  background-color: #99e6ff;
+}
+
+.grid__col--3.theme__colors {
+  background-color: #e6b3ff;
+}
+
+.grid__col--5.theme__colors {
+  background-color: #33ff99;
+}
+
+.grid__col--7.theme__colors,
+ .centered.theme__colors {
+  background-color: #ffb3b3;
+}
+
+.grid__col--8.theme__colors {
+  background-color: #ffa280;
+}
+
+.grid__col--4.theme__colors {
+  background-color: #0099cc;
 }

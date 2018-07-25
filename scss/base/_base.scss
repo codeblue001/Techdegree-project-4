@@ -9,21 +9,13 @@
 
 // ul elements
 ul {
-  list-style-type: none; a {
-    display: block;
-    padding: 15px 0;
-    text-decoration: none;
-    color: black;
-    opacity: 0.5;
-  }
+list-style-type: none;
+margin: 0;
+padding: 0;
 }
 
 // p elements
 p {
   text-align: left;
-  padding: 0 20px;
-  opacity: 0.8;
-  line-height: 1.5;
-  margin: 0;
-  font-size: 18px;
+  color: #8c8c8c; 
 }
