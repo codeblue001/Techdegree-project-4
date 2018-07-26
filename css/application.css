@@ -8,7 +8,6 @@ ul {
   padding: 0; }
 
 p {
-  text-align: left;
   color: #8c8c8c;
   line-height: 1.5; }
 
@@ -469,6 +468,9 @@ template {
   padding-bottom: 5px;
   margin-bottom: 20px;
   width: 100%; }
+
+p {
+  text-align: left; }
 
 @media only screen and (min-width: 768px) {
   .container {

@@ -16,7 +16,7 @@ padding: 0;
 
 // p elements
 p {
-  text-align: left;
+  @extend %left;
   color: #8c8c8c;
   line-height: 1.5;
 }
