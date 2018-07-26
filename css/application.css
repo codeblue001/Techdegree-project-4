@@ -9,7 +9,8 @@ ul {
 
 p {
   text-align: left;
-  color: #8c8c8c; }
+  color: #8c8c8c;
+  line-height: 1.5; }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -321,48 +322,75 @@ template {
   border-left: 5px solid #00ffcc;
   border-radius: 5px;
   text-align: left;
-  padding-left: 10px; }
+  padding-left: 10px;
+  font-size: 18px;
+  font-style: italic; }
 
 .headline--primary {
   color: #00ffcc;
-  text-align: left; }
+  text-align: left;
+  margin-left: 10px; }
 
 .headline--secondary {
   text-align: left;
   color: #b3b3b3; }
 
-.nav__item :hover {
-  color: white;
-  border: 1px solid #00ffcc;
-  background-color: #00ffcc; }
-.nav__item a {
-  color: #808080;
-  text-decoration: none; }
+.nav__item {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+  .nav__item :hover {
+    color: white;
+    border: 1px solid #00ffcc;
+    background-color: #00ffcc;
+    display: block;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 600; }
+  .nav__item a {
+    color: #808080;
+    text-decoration: none; }
+
+.img--avatar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto; }
 
 .img--frame {
   border: 1px solid #bfbfbf;
-  padding: 15px; }
+  padding: 15px;
+  margin-top: 15px;
+  max-width: 100%; }
 
 .container {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  padding: 25px;
+  padding: 30px;
   text-align: center; }
 
-.grid__row .grid__col--12.theme__colors,
-.grid__row .grid__col--3.theme__colors,
-.grid__row .grid__col--4.theme__colors,
-.grid__row .grid__col--5.theme__colors,
-.grid__row .grid__col--6.theme__colors,
-.grid__row .grid__col--7.theme__colors,
-.grid__row .grid__col--8.theme__colors,
-.grid__row .centered.theme__colors {
-  font-weight: 700;
-  border: 1px solid;
-  border-radius: 5px;
-  width: 100%;
-  text-align: left; }
+.grid__row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .grid__row .grid__col--12.theme__colors,
+  .grid__row .grid__col--3.theme__colors,
+  .grid__row .grid__col--4.theme__colors,
+  .grid__row .grid__col--5.theme__colors,
+  .grid__row .grid__col--6.theme__colors,
+  .grid__row .grid__col--7.theme__colors,
+  .grid__row .grid__col--8.theme__colors,
+  .grid__row .centered.theme__colors {
+    font-weight: 700;
+    border: 1px solid none;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px; }
 
 .grid__col--12.theme__colors {
   background-color: #80ffdf; }
@@ -391,7 +419,8 @@ template {
 
 .btn--default {
   background-color: #33ffff;
-  border: 1px solid #33ffff; }
+  border: 1px solid #33ffff;
+  margin-top: 20px; }
 
 .btn--success {
   background-color: #33cc00;
@@ -418,7 +447,15 @@ template {
   color: #fff;
   font-weight: 700;
   border-radius: 5px;
-  width: 100%; }
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.form {
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .form__label--hidden {
   visibility: hidden; }
@@ -426,6 +463,9 @@ template {
 .form__input {
   display: block;
   border: none;
-  border-bottom: 5px solid #00ffcc; }
+  border-bottom: 5px solid #00ffcc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%; }
 
 /*# sourceMappingURL=application.css.map */

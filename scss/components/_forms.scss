@@ -2,6 +2,8 @@
 // Forms
 
 .form {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .form__label--hidden {
@@ -12,5 +14,8 @@
     display: block;
     border: none;
     border-bottom: 5px solid #00ffcc;
-    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+
 }

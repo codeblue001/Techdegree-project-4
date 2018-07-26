@@ -1,9 +1,16 @@
 
 .nav__item {
+  margin-top: 25px;
+  margin-bottom: 25px;
    :hover {
      color: white;
      border: 1px solid #00ffcc;
      background-color: #00ffcc;
+     display: block;
+     border-radius: 5px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     font-weight: 600;
   }
   a {
     color: #808080;

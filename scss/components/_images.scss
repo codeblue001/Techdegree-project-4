@@ -1,13 +1,19 @@
 
 // Image
 
+
+.img--avatar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
 .img--logo {
 }
 
 .img--frame {
   border: 1px solid #bfbfbf;
   padding: 15px;
-}
-
-.img--avatar {
+  margin-top: 15px;
+  max-width: 100%;
 }
