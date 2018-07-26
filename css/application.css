@@ -416,7 +416,7 @@ template {
   background-color: #ffa280; }
 
 .grid__col--4.theme__colors {
-  background-color: #0099cc; }
+  background-color: #80dfff; }
 
 .btn--default {
   background-color: #33ffff;
@@ -469,5 +469,61 @@ template {
   padding-bottom: 5px;
   margin-bottom: 20px;
   width: 100%; }
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 895px; }
+
+  .grid__row {
+    display: flex;
+    justify-content: space-around; }
+    .grid__row .grid__col--12 {
+      display: flex; }
+      .grid__row .grid__col--12 .btn--default,
+      .grid__row .grid__col--12 .btn--success,
+      .grid__row .grid__col--12 .btn--error,
+      .grid__row .grid__col--12 .btn--warning,
+      .grid__row .grid__col--12 .btn--info {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+        font-weight: 600;
+        font-size: 14px; }
+
+  ul {
+    display: flex; }
+    ul .nav__item {
+      padding-right: 20px; }
+
+  .grid__col--8 .card {
+    margin-right: 30px;
+    padding-right: 30px; }
+
+  .grid__col--3.theme__colors,
+  .grid__col--4.theme__colors,
+  .grid__col--5.theme__colors,
+  .grid__col--6.theme__colors,
+  .grid__col--7.theme__colors,
+  .grid__col--8.theme__colors,
+  .grid__col--12.theme__colors,
+  .centered.theme__colors {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #666666; }
+
+  .grid__col--4.theme__colors {
+    flex-basis: 50%; }
+
+  .grid__col--5.theme__colors {
+    flex-basis: 70%; }
+
+  .grid__col--7.theme__colors.centered {
+    flex-basis: 60%; } }
 
 /*# sourceMappingURL=application.css.map */
