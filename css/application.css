@@ -354,6 +354,7 @@ template {
 .img--avatar {
   padding-top: 30px;
   padding-bottom: 30px;
+  display: block;
   margin: auto; }
 
 .img--frame {
@@ -466,6 +467,7 @@ template {
   border-bottom: 5px solid #00ffcc;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-bottom: 20px;
   width: 100%; }
 
 /*# sourceMappingURL=application.css.map */
