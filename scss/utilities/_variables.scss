@@ -1,5 +1,43 @@
-// Fonts
+/*************************************************************
+  Fonts
+**************************************************************/
+$b-radius: 5px;
+$border-side: 5px solid #00ffcc;
 
-// Breakpoints
+/*************************************************************
+  Breakpoints
+**************************************************************/
 
-// Colors
+
+
+/*************************************************************
+  Colors
+**************************************************************/
+// Descriptive $colors
+
+$white: #fff;
+$aqua: #33ffff;
+$aqua-alt: #80ffdf;
+$mint: #00ffcc;
+$grey-main: #8c8c8c;
+$grey-alt: #b3b3b3;
+$grey-nav:  #808080;
+$harlequin: #33cc00;
+$bittersweet: #ff6666;
+$coral: #ff7f50;
+$heliotrope: #9f80ff;
+$pacific-blue: #0099cc;
+$anakiwa-blue: #99e6ff;
+$maiev-pink: #e6b3ff;
+$spring-green: #33ff99;
+$sundown-pink: #ffb3b3;
+$vivid-tangerine: #ffa280;
+
+//Functional color vriable
+
+$color-primary: $mint;
+$color-secondary: $aqua;
+
+$color-text-base:  $grey-main;
+$color-text-nav:  $grey-nav;
+$color-text-white: $white;

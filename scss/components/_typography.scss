@@ -13,19 +13,21 @@
 .blockquote {
   border-left: 5px solid #00ffcc;
   border-radius: 5px;
-  text-align: left;
+  @extend %left;
   padding-left: 10px;
   font-size: 18px;
   font-style: italic;
 }
 
-.headline--primary {
-  color: #00ffcc;
-  text-align: left;
-  margin-left: 10px;
-}
+.headline {
+  &--primary {
+    color: #00ffcc;
+    @extend %left;
+    margin-left: 10px;
+  }
 
-.headline--secondary {
-  text-align: left;
-  color: #b3b3b3;
+  &--secondary {
+    @extend %left;
+    color: #b3b3b3;
+  }
 }

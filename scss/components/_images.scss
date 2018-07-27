@@ -1,20 +1,24 @@
 
 // Image
 
+.img {
+  &--avatar {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: block;
+      margin: auto;
+      cursor: pointer;
+  }
 
-.img--avatar {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: block;
-    margin: auto;
-}
+  &--logo {
+    cursor: pointer;
+  }
 
-.img--logo {
-}
-
-.img--frame {
-  border: 1px solid #bfbfbf;
-  padding: 15px;
-  margin-top: 15px;
-  max-width: 100%;
+  &--frame {
+    border: 1px solid #bfbfbf;
+    padding: 15px;
+    margin-top: 15px;
+    max-width: 100%;
+    cursor: pointer;
+  }
 }

@@ -1,34 +1,32 @@
 
 // Buttons
+.btn{
+  &--default {
+    background-color: #33ffff;
+    border: 1px solid #33ffff;
+    margin-top: 20px;
+    cursor: pointer;
+  }
 
-.btn--default {
-  background-color: #33ffff;
-  border: 1px solid #33ffff;
-  margin-top: 20px;
-}
+  &--success {
+    background-color: #33cc00;
+    border: 1px solid #33cc00;
+  }
 
-.btn--success {
-  background-color: #33cc00;
-  border: 1px solid #33cc00;
-}
+  &--error {
+    background-color: #ff6666;
+    border: 1px solid #ff6666;
+  }
 
-.btn--error {
-  background-color: #ff6666;
-  border: 1px solid #ff6666;
-}
+  &--warning {
+    background-color: #ff7f50;
+    border: 1px solid #ff7f50;
+  }
 
-.btn--warning {
-  background-color: #ff7f50;
-  border: 1px solid #ff7f50;
-}
-
-.btn--info {
-  background-color: #9f80ff;
-  border: 1px solid #9f80ff;
-}
-
-.theme__colors {
-
+  &--info {
+    background-color: #9f80ff;
+    border: 1px solid #9f80ff;
+  }
 }
 
 .btn--default,
@@ -36,13 +34,5 @@
 .btn--error,
 .btn--warning,
 .btn--info {
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 700;
-  border-radius: 5px;
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  @extend %button;
 }

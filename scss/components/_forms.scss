@@ -4,19 +4,17 @@
 .form {
   padding-top: 20px;
   padding-bottom: 20px;
-}
+  &__label--hidden {
+    visibility: hidden;
+  }
 
-.form__label--hidden {
-  visibility: hidden;
-}
-
-.form__input {
-    display: block;
-    border: none;
-    border-bottom: 5px solid #00ffcc;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
-    width: 100%;
-
+  &__input {
+      display: block;
+      border: none;
+      border-bottom: 5px solid #00ffcc;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
 }
