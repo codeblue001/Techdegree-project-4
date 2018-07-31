@@ -1,13 +1,31 @@
-/*************************************************************
-  Fonts
-**************************************************************/
-$b-radius: 5px;
+
+// border-radius
+$br-main: 5px;
 $border-side: 5px solid #00ffcc;
 
 /*************************************************************
-  Breakpoints
+  Margin & padding
 **************************************************************/
+$pad: 20px;
 
+/*************************************************************
+  Fonts
+**************************************************************/
+$stack-sans-serif: Helvetica, Arial, Sans-serif;
+$stack-helvetica: "Helvetica Neue", $stack-sans-serif;
+$stack-abolition: "Montserrat", $stack-helvetica;
+
+$family: "Montserrat";
+$file: Montserrat-Regular;
+
+//Asset Path
+
+$path-font: "../fonts";
+
+/*************************************************************
+  Media Querry Breakpoints
+**************************************************************/
+$breakpoint: "(min-width: 769px)";
 
 
 /*************************************************************
@@ -32,6 +50,7 @@ $maiev-pink: #e6b3ff;
 $spring-green: #33ff99;
 $sundown-pink: #ffb3b3;
 $vivid-tangerine: #ffa280;
+$frame: #bfbfbf;
 
 //Functional color vriable
 

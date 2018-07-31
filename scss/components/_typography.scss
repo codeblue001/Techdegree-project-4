@@ -1,33 +1,36 @@
+
 //Typography
 
+@include font-face("Montserrat", Montserrat-Regular);
+
 .container {
- font-family: 'Montserrat', sans-serif;
+ font-family: $stack-helvetica;
 }
 
 .link {
   text-decoration: none;
-  color: #33ffff;
+  color: $color-secondary;
   }
 
 
 .blockquote {
-  border-left: 5px solid #00ffcc;
-  border-radius: 5px;
+  font: 18px $family, sans-serif;
+  border-left: $br-main solid $color-primary;
+  border-radius: $br-main;
   @extend %left;
   padding-left: 10px;
-  font-size: 18px;
   font-style: italic;
 }
 
 .headline {
   &--primary {
-    color: #00ffcc;
+    color: $color-primary;
     @extend %left;
     margin-left: 10px;
   }
 
   &--secondary {
     @extend %left;
-    color: #b3b3b3;
+    color: $grey-alt;
   }
 }

@@ -4,8 +4,8 @@
   margin-bottom: 25px;
    :hover {
      color: white;
-     border: 1px solid #00ffcc;
-     background-color: #00ffcc;
+     border: 1px solid;
+     background-color: $color-primary;
      display: block;
      border-radius: 5px;
      padding-top: 15px;
@@ -13,7 +13,7 @@
      font-weight: 600;
   }
   a {
-    color: #808080;
+    color: $grey-nav;
     text-decoration: none;
   }
 }

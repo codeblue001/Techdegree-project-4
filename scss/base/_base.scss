@@ -12,6 +12,12 @@ ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
+  @media #{$breakpoint} {
+    display: flex;
+    .nav__item {
+      padding-right: $pad;
+    }
+  }
 }
 
 // p elements

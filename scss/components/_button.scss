@@ -2,30 +2,29 @@
 // Buttons
 .btn{
   &--default {
-    background-color: #33ffff;
-    border: 1px solid #33ffff;
-    margin-top: 20px;
+    background-color: $color-secondary;
+    @extend %br-main;
     cursor: pointer;
   }
 
   &--success {
-    background-color: #33cc00;
-    border: 1px solid #33cc00;
+    background-color: $harlequin;
+    @extend %br-main;
   }
 
   &--error {
-    background-color: #ff6666;
-    border: 1px solid #ff6666;
+    background-color: $bittersweet;
+    @extend %br-main;
   }
 
   &--warning {
-    background-color: #ff7f50;
-    border: 1px solid #ff7f50;
+    background-color: $coral;
+    @extend %br-main;
   }
 
   &--info {
-    background-color: #9f80ff;
-    border: 1px solid #9f80ff;
+    background-color: $heliotrope;
+    @extend %br-main;
   }
 }
 

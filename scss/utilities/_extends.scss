@@ -1,16 +1,16 @@
 
+// Container styles
 
-// Links
-
-// Images
-
-// Headlines
-
-// Nav items
-
-%left {
-  text-align: left;
+%main-container {
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  text-align: center;
 }
+
+
+// Grid styles
 
 %grid {
   font-weight: 700;
@@ -25,6 +25,23 @@
   cursor: pointer;
 }
 
+
+// Borders
+
+%br-main {
+  border: 1px solid;
+}
+
+
+// Text-align
+
+%left {
+  text-align: left;
+}
+
+
+//Buttons
+
 %button {
   text-transform: uppercase;
   color: #fff;
@@ -38,13 +55,8 @@
   cursor: pointer;
 }
 
-%main-container {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 30px;
-  text-align: center;
-}
+
+// Clearfix
 
 %clearfix{
   &:after {

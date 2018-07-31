@@ -2,8 +2,8 @@
 // Forms
 
 .form {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: $pad;
+  padding-bottom: $pad;
   &__label--hidden {
     visibility: hidden;
   }
@@ -11,10 +11,10 @@
   &__input {
       display: block;
       border: none;
-      border-bottom: 5px solid #00ffcc;
+      border-bottom: 5px solid $color-primary;
       padding-top: 5px;
       padding-bottom: 5px;
-      margin-bottom: 20px;
+      margin-bottom: $pad;
       width: 100%;
     }
 }
