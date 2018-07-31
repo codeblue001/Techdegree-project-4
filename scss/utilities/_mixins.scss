@@ -10,3 +10,17 @@
     src: url("#{$path-font}/$file.woff") format("woff");
   }
 }
+
+@mixin media($breakpoint) {
+  @media only screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin flexbox{
+  display: flex;
+}
+
+@mixin justify{
+  justify-content: space-around;
+}

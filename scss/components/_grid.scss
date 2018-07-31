@@ -6,11 +6,11 @@
 }
 
 .grid__row {
-  @media #{$breakpoint} {
-    display: flex;
-    justify-content: space-around;
+  @include media(769px) {
+    @include flexbox;
+    @include justify;
     .grid__col--12 {
-      display: flex;
+      @include flexbox;
       .btn--default,
       .btn--success,
       .btn--error,
@@ -41,7 +41,7 @@
     }
 }
 
-@media #{$breakpoint} {
+@include media(769px) {
   .grid__col--3.theme__colors,
   .grid__col--4.theme__colors,
   .grid__col--5.theme__colors,

@@ -62,6 +62,9 @@
   Media Querry Breakpoints
 **************************************************************/
 /*************************************************************
+  Media Querry Breakpoints
+**************************************************************/
+/*************************************************************
   Colors
 **************************************************************/
 * {
@@ -441,7 +444,7 @@ template {
   margin-bottom: 20px;
   padding-top: 20px;
   padding-bottom: 10px; }
-  @media (min-width: 769px) {
+  @media only screen and (min-width: 769px) {
     .grid__row {
       display: flex;
       justify-content: space-around; }
@@ -459,7 +462,7 @@ template {
           font-weight: 600;
           font-size: 14px; } }
 
-@media (min-width: 769px) {
+@media only screen and (min-width: 769px) {
   .grid__col--3.theme__colors,
   .grid__col--4.theme__colors,
   .grid__col--5.theme__colors,
